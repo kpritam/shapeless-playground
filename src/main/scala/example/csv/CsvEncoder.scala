@@ -1,4 +1,4 @@
-package examples
+package examples.csv
 
 import shapeless.Generic
 import shapeless.{HList, ::, HNil}

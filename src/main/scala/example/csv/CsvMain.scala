@@ -1,7 +1,8 @@
-package examples
+package examples.csv
+
 import shapeless.{HList, ::, HNil}
 
-object Main extends App {
+object CsvMain extends App {
 
   case class Person(fname: String, lname: String, age: Int)
   case class Employee(name: String, id: Int)
